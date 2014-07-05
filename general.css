@@ -1,0 +1,92 @@
+header {
+	height:175px;
+	background-color:#05D1ED;
+	padding-top:25px;
+	padding-left:50px;
+	color:floralwhite;
+	font-size:25px;
+
+}
+
+
+footer {
+	height:30px;
+	width:100%;
+	background-color:#05D1ED;
+	position:relative;
+	top:-75px;
+
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	font-family:arial;
+	color: #2b2b2b;
+	background-color: floralwhite;
+}
+
+.message {
+	background-color:white;
+	box-shadow: 0px 2px 4px 0px grey;
+	padding: 3px 5px 3px 10px;
+	margin-bottom:20px;
+}
+
+.message:hover {
+	box-shadow: 0px 5px 10px 0px grey;
+}
+
+.message h3 {
+	margin:0;
+	padding:0;
+}
+
+.messageslist {
+	top:-75px;
+	position:relative;
+	width:66%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.buttonAddMessage {
+	background-color:white;
+	border-radius: 50px;
+	width:50px;
+	height:50px;
+	position:relative;
+	top:-25px;
+	text-align:center;
+	color: grey;
+	font-size:25px;
+	font-weight: bold;
+	line-height: 50px;
+	box-shadow: 0px 2px 4px 0px grey;
+	margin-left:85%;
+	font-family: initial;	
+}
+
+.buttonAddMessage:hover {
+	box-shadow: 0px 5px 10px 0px grey;
+}
+
+
+a {
+	text-decoration:none;
+}
+
+#popup {
+	width:auto;	
+	display: none;
+}
+#popup textarea {
+	width:100%;
+	max-width:100%;
+	margin-top:10px;
+	height:50px;
+}
+
+#popup input {
+	display: block;
+}
