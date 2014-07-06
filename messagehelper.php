@@ -2,9 +2,9 @@
 	class helperMessage {
 
 		private $PARAM_host = "localhost";
-		private $PARAM_dbname = "dbname";
-		private $PARAM_username = "username";
-		private $PARAM_password = "password";	
+		private $PARAM_dbname = "messageboard";
+		private $PARAM_username = "root";
+		private $PARAM_password = "";	
 
 		function getMessages()
 		{
